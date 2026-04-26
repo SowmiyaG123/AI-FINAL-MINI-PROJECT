@@ -182,3 +182,19 @@ Final Output / Fallback Generation
 | **v4**           | ~80%              | Session memory + preferences (exclude/include)                                                                                                  | Intent queries still failing                |
 | **v5**           | ~85%              | Soft scoring, dataset expansion, LLM reranking, OCR                                                                                             | No intent understanding, generation broken  |
 | **v6 (Current)** | **~90–92%**       | ✅ Intent-based filtering  <br> ✅ AI generation fallback (fixed) <br> ✅ Contradiction handling <br> ✅ Meal-type tagging <br> ✅ Code optimization | Minor edge cases, limited dataset scale     |
+
+
+questions for demo:
+quick dinner recipe
+chicken and rice
+i want a recipe using fish,prawn, beef,prawn
+I have rice, want spicy, vegetarian dinner under 30 min no chicken recipes
+no chicken reset preferences
+quick dinner
+desseert using banana
+i want a dessert recipe
+spinach recipe for breakfast
+OCR
+i have onion,tomato,chilli,pepper,salt,garlic,cauliflower
+random veg recipe
+Generate a vegetarian alternative to fish recipe
