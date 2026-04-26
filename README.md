@@ -223,6 +223,38 @@ GROQ_API_KEY=your_api_key
 ✅ 6. Run backend
 python backend.py
 
+Use .env file
+
+pip install python-dotenv
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+GROQ_KEY = os.getenv("GROQ_KEY")
+
+Create .env:
+
+GROQ_KEY=your_actual_key
+
+Upgrade:
+
+Instead of only:
+
+R = [...]
+
+Do:
+
+Load from JSON / DB
+Or integrate with:
+vector DB (Chroma)
+or SQL
+
+Example:
+
+with open("recipes.json") as f:
+    R = json.load(f)
+
 1. GO TO FRONTEND FOLDER
 cd frontend
 ✅ 2. INSTALL DEPENDENCIES
