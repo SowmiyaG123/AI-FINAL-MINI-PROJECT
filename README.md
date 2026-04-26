@@ -222,4 +222,8 @@ Create .env file:
 GROQ_API_KEY=your_api_key
 ✅ 6. Run backend
 python backend.py
-npm start
+
+1. GO TO FRONTEND FOLDER
+cd frontend
+✅ 2. INSTALL DEPENDENCIES
+npm install
