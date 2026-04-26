@@ -198,3 +198,28 @@ OCR
 i have onion,tomato,chilli,pepper,salt,garlic,cauliflower
 random veg recipe
 Generate a vegetarian alternative to fish recipe
+
+
+AFTER DOWNLOADING / EXTRACTING PROJECT (SETUP GUIDE)
+
+When you use this project on another PC:
+
+✅ 1. Open terminal in project folder
+cd AI-FINAL-MINI-PROJECT
+✅ 2. Create virtual environment
+python -m venv venv
+✅ 3. Activate it
+
+Windows:
+
+venv\Scripts\activate
+✅ 4. Install dependencies
+pip install -r requirements.txt
+✅ 5. Setup environment variables
+
+Create .env file:
+
+GROQ_API_KEY=your_api_key
+✅ 6. Run backend
+python backend.py
+npm start
